@@ -130,6 +130,13 @@ body {
 }
 
 @media(min-width: 626px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
     .barra-navegacion ul {
         flex-direction: row; 
         gap: 10px;
